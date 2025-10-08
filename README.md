@@ -74,7 +74,8 @@ pkg install libcaca -y
 pkg install python -y
 pkg install python3 -y
 pkg install golang -y
-pkg install git 
+pkg install git
+rm -rf DooM-CANNON 
 git clone https://github.com/TEAMBCS/DooM-CANNON.git
 cd DooM-CANNON
 chmod 777 *
@@ -99,15 +100,15 @@ python3 setup.py
 ## ▶️ Usage
    *PYTHON language  launcher*
 ```bash
-python3 doom_cannon.py
+python3 doom-cannon.py
 ```
    *GO language launcher*
 ```bash
-go run doom_cannon.go
+go run doom-cannon.go
 ```
    *SHELL language launcher*
 ```bash
-bash doom_cannon.sh
+bash doom-cannon.sh
 ```    
 You will see a CLI menu with available modules.
 Select an option (e.g., `01/A` for ORBIT Attack) and follow the prompts.
