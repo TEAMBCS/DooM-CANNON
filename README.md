@@ -83,18 +83,7 @@ chmod +x *
 pip3 install -r requirements.txt
 python3 setup.py
 ```
-## 🔌 Installation for Kali Linux 
-```bash
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y coreutils grep libcaca python3 python3-pip python3-dev python3-setuptools build-essential golang git
-pip3 install --upgrade pip
-git clone https://github.com/TEAMBCS/DooM-CANNON.git
-cd DooM-CANNON
-chmod 777 *
-chmod +x *
-pip3 install -r requirements.txt
-python3 setup-kali.py
-```
+
 ---
 
 ## ▶️ Usage
