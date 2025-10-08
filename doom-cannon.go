@@ -13,7 +13,7 @@ func main() {
         os.Exit(1)
     }
 
-    // python3 দিয়ে doom_cannon চালাই
+    
     cmd := exec.Command("python3", "doom_cannon")
     cmd.Stdout = os.Stdout
     cmd.Stderr = os.Stderr
