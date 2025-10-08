@@ -2,8 +2,8 @@
 
 import os
 
-if not os.path.isfile("doom_cannon"):
+if not os.path.isfile("doom-cannon"):
     print("❌ doom_cannon not found!")
 else:
-    print("▶ Running doom_cannon...")
-    os.system("python3 doom_cannon")
+    print("▶ Running DooM-CANNON...")
+    os.system("python3 doom-cannon")
