@@ -14,7 +14,7 @@ func main() {
     }
 
     
-    cmd := exec.Command("python3", "doom_cannon")
+    cmd := exec.Command("python3", "doom-cannon")
     cmd.Stdout = os.Stdout
     cmd.Stderr = os.Stderr
     cmd.Stdin = os.Stdin
