@@ -8,8 +8,8 @@ import (
 )
 
 func main() {
-    if _, err := os.Stat("doom_cannon"); os.IsNotExist(err) {
-        fmt.Println("❌ Error: doom_cannon file not found")
+    if _, err := os.Stat("doom-cannon"); os.IsNotExist(err) {
+        fmt.Println("❌ Error: doom-cannon file not found")
         os.Exit(1)
     }
 
@@ -21,7 +21,7 @@ func main() {
 
     err := cmd.Run()
     if err != nil {
-        fmt.Println("❌ Failed to run doom_cannon:", err)
+        fmt.Println("❌ Failed to run DooM-CANNON:", err)
         os.Exit(1)
     }
 }
