@@ -93,7 +93,7 @@ cd DooM-CANNON
 chmod 777 *
 chmod +x *
 pip3 install -r requirements.txt
-python3 setup.py
+python3 setup-kali.py
 ```
 ---
 
