@@ -81,7 +81,16 @@ cd DooM-CANNON
 chmod 777 *
 chmod +x *
 pip3 install -r requirements.txt
+```
+## ⚙️ Setup 
+ Termux ->
+```bash
 python3 setup.py
+```
+
+Kali Linux ->
+```bash
+python3 setup-kali.py
 ```
 
 ---
