@@ -442,7 +442,7 @@ func main() {
 		for {
 			fmt.Printf("\r%-6d of max %-6d |\t%7d |\t%6d",
 				threads, threads, atomic.LoadUint64(&sentCount), atomic.LoadUint64(&errCount))
-			time.Sleep(time.Second / 2) // দ্রুত আপডেট
+			time.Sleep(time.Second / 2) 
 		}
 	}()
 
