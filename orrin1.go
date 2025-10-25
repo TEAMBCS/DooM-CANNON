@@ -18,7 +18,7 @@ import (
 
 const __version__  = "1.0.1"
 
-// const acceptCharset = "windows-1251,utf-8;q=0.7,*;q=0.7" // use it for runet
+// const acceptCharset = "windows-1251,utf-8;q=0.7,*;q=0.7"
 const acceptCharset = "ISO-8859-1,utf-8;q=0.7,*;q=0.7"
 
 const (
