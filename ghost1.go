@@ -356,7 +356,7 @@ func atoi(str string) int {
 }
 
 func buildblock(size int) string {
-	letters := []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
+	letters := []rune("1234567890")
 	s := make([]rune, size)
 	for i := range s { s[i] = letters[rand.Intn(len(letters))] }
 	return string(s)
