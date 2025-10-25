@@ -362,7 +362,7 @@ var proxies []string
 
 // ---------------- UTILS ----------------
 func randString(n int) string {
-        chars := []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+        chars := []rune("0123456789")
         b := make([]rune, n)
         for i := range b {
                 b[i] = chars[rand.Intn(len(chars))]
