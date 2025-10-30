@@ -170,9 +170,9 @@ DNT: 1
 ```
 DooM-CANNON/
 │
-├── doom_cannon.py               # Main Python language  launcher (menu, UI, input handling)
-├── doom_cannon.go  							#  Go language launcher (menu, UI, input handling)
-├── doom_cannon.sh 							#  Shell language launcher (menu, UI, input handling)
+├── doom-cannon.py               # Main Python language  launcher (menu, UI, input handling)
+├── doom-cannon.go  							#  Go language launcher (menu, UI, input handling)
+├── doom-cannon.sh 							#  Shell language launcher (menu, UI, input handling)
 │
 ├── orbit.go                 # Orbit Attack (TLS-based)
 │   ├─ Inputs: host, port, method [GET/POST], threads, duration, debug, proxy, header
@@ -196,12 +196,13 @@ DooM-CANNON/
 │   ├─ Inputs: url, port, threads, method, duration, proxy
 │
 │
-├── viont.go                 # Viont Attack (Flood mode)
+├── viont.go                 # Viont Attack 
 │   ├─ Inputs: url, port, threads, method, duration, header
 |
-├── orrin.go                 # Orrin Attack
+├── orrin.go                 # Orrin Attack (Flood)
 │   ├─ Inputs: site, safe_mode [y/n]
-│
+|
+├── Random IP using system   # Generate Random IP for Attack (IP version -> IPv4)
 ├── proxy.txt                # Optional proxy list
 ├── header.txt               # Optional custom headers
 └── wordlist                 # Optional wordlist for specific modules
@@ -210,7 +211,7 @@ DooM-CANNON/
 ---
 ## DOOM CANNON UI 
 <p align="center">
-  <img src="https://i.postimg.cc/sg05WqgC/doom-ui.jpg" width="600"/></p>
+  <img src="https://i.postimg.cc/7hhcn4Sx/doom-cannon-v3.jpg" width="600"/></p>
 
   ---
 ## Prove
