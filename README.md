@@ -184,7 +184,7 @@ DooM-CANNON/
 │   ├─ Inputs: url, port, threads, method, duration, proxy, wordlist, header
 │
 ├── noise.go                 # Noise Attack
-│   ├─ Inputs: url, threads, method, duration, proxy, header
+│   ├─ Inputs: url, threads, port, method, duration, proxy, header
 │
 ├── ghost.go                 # Ghost Attack
 │   ├─ Inputs: url, port, threads, method, duration, proxy, wordlist
@@ -195,12 +195,12 @@ DooM-CANNON/
 ├── orix.go                  # Orix Attack
 │   ├─ Inputs: url, port, threads, method, duration, proxy
 │
-├── orrin.go                 # Orrin Attack
-│   ├─ Inputs: site, safe_mode [y/n]
 │
 ├── viont.go                 # Viont Attack (Flood mode)
 │   ├─ Inputs: url, port, threads, method, duration, header
-│
+|
+├── orrin.go                 # Orrin Attack
+│   ├─ Inputs: site, safe_mode [y/n]
 │
 ├── proxy.txt                # Optional proxy list
 ├── header.txt               # Optional custom headers
