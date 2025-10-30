@@ -195,7 +195,6 @@ DooM-CANNON/
 ├── orix.go                  # Orix Attack
 │   ├─ Inputs: url, port, threads, method, duration, proxy
 │
-│
 ├── viont.go                 # Viont Attack 
 │   ├─ Inputs: url, port, threads, method, duration, header
 |
