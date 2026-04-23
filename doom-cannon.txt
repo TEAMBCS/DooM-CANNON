@@ -3,3 +3,4 @@ pyfiglet
 requests
 regex
 colorama 
+pycryptodome
