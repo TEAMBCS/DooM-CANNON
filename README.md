@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.postimg.cc/j2Rx23zp/doom-cannon.jpg" width="600"/>
+  <img src="https://raw.githubusercontent.com/TEAMBCS/DooM-CANNON/main/Image/doom-cannon-logo.png" width="600"/>
 </p>
 
 <h1 align="center"> DOOM CANNON DDoS Tool</h1>
@@ -80,17 +80,8 @@ git clone https://github.com/TEAMBCS/DooM-CANNON.git
 cd DooM-CANNON
 chmod 777 *
 chmod +x *
-pip3 install -r requirements.txt
-```
-## ⚙️ Setup 
- Termux ->
-```bash
+pip3 install -r doom-cannon.txt
 python3 setup.py
-```
-
-Kali Linux ->
-```bash
-python3 setup-kali.py
 ```
 
 ---
@@ -107,11 +98,13 @@ go run doom-cannon.go
    *SHELL language launcher*
 ```bash
 bash doom-cannon.sh
-```    
+```
+
 You will see a CLI menu with available modules.
 Select an option (e.g., `01/A` for ORBIT Attack) and follow the prompts.
 
 ---
+
 <h1 align="center"> Tool Login Info </h1>
 
 ## TOOL USERNAME 
@@ -123,6 +116,7 @@ Select an option (e.g., `01/A` for ORBIT Attack) and follow the prompts.
 DOOM CANNON@TEAM BCS
 ```
 ---
+
 <h1 align="center"> Important Note </h1>
 
 ## HTTP Headers Example
@@ -163,6 +157,7 @@ DNT: 1
 }
 ```
 ---
+
 <h1 align="center"> PROJECT INFO </h1>
 
 ## 🌳 Project Structure (Detailed Tree)
@@ -210,12 +205,13 @@ DooM-CANNON/
 ---
 ## DOOM CANNON UI 
 <p align="center">
-  <img src="https://i.postimg.cc/7hhcn4Sx/doom-cannon-v3.jpg" width="600"/></p>
+  <img src="https://raw.githubusercontent.com/TEAMBCS/DooM-CANNON/main/Image/Tool-img.jpg" width="600"/></p>
 
-  ---
+---
+
 ## Prove
 <p align="center">
-  <img src="https://i.postimg.cc/RFB9ppbW/prove.jpg" width="800"/>
+  <img src="https://raw.githubusercontent.com/TEAMBCS/DooM-CANNON/main/Image/Test.jpg" width="800"/>
 </p>
 
 
