@@ -217,6 +217,30 @@ DooM-CANNON/
 
 ---
 
+<h1 align="center"> ⚠️ CAUTION NOTICE ⚠️ </h1>
+
+> 🚨 **IMPORTANT WARNING**
+>
+> This tool is **NOT recommended** to run on personal devices such as:
+> - Mobile phones 📱
+> - Personal computers 💻
+> - Home networks 🏠
+>
+> ❌ Running this tool on your own device may:
+> - Cause system instability or crash
+> - Overload your network
+> - Expose your real IP address
+> - Lead to unexpected errors or damage
+>
+> ✅ **RECOMMENDED ENVIRONMENT:**
+> - Use **Cloud Shell / VPS / Remote Server** only  
+> - Run in a **controlled and isolated environment**
+>
+> 🔒 Always prioritize your **security and privacy**.
+>
+> ⚠️ The developers are **NOT responsible** for any damage caused by improper usage.
+
+---
 
 
 ## 📜 License
