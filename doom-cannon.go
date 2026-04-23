@@ -8,13 +8,12 @@ import (
 )
 
 func main() {
-    if _, err := os.Stat("doom-cannon"); os.IsNotExist(err) {
-        fmt.Println("❌ Error: doom-cannon file not found")
+    if _, err := os.Stat("doom-cannon.py"); os.IsNotExist(err) {
+        fmt.Println("❌ Error: doom-cannon.py file not found")
         os.Exit(1)
     }
 
-    
-    cmd := exec.Command("python3", "doom-cannon")
+    cmd := exec.Command("python3", "doom-cannon.py")
     cmd.Stdout = os.Stdout
     cmd.Stderr = os.Stderr
     cmd.Stdin = os.Stdin
