@@ -1,4 +1,5 @@
 #!/bin/bash
+#code by BLACK ZERO
 if [ ! -f "doom-cannon.py" ]; then
     echo "❌ doom-cannon.py not found!"
     exit 1
