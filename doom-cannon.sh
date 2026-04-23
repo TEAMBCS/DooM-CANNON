@@ -1,9 +1,8 @@
 #!/bin/bash
-
-if [ ! -f "doom-cannon" ]; then
-    echo "❌ doom-cannon not found!"
+if [ ! -f "doom-cannon.py" ]; then
+    echo "❌ doom-cannon.py not found!"
     exit 1
 fi
 
-echo "▶ Running  DooM-CANNON..."
-python3 doom_cannon
+echo "▶ Running DooM-CANNON..."
+python3 doom-cannon.py
